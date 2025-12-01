@@ -2,7 +2,7 @@
     background-color: grey;
     width: 500px;
     height:48px;
-    margin:0px 760px 0px 760px;
+    margin:0 760px 0 760px;
     padding:10px;
     
 }
@@ -19,8 +19,8 @@
 .search-result-button{
     width:60px;
     height:40px;
-    margin-top:S0px;
-    padding:0%;
+    margin-top:0;
+    padding:0;
     font-size:15px;
     font-family:Arial, Helvetica, sans-serif;
     
