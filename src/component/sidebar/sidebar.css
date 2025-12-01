@@ -1,0 +1,130 @@
+.sidebar{
+    width: 300px;
+    height:auto;
+    margin:0px 34px 0px 0px;
+    background-color:azure;
+
+}
+.sidebar-more{
+    width: 300px;
+    height: 85px;
+    margin:0px 34px 0px 0px;
+    padding: 5px auto ;
+    background-color:#baffc3;
+}
+.sidebar-header{
+    width: 300px;
+    height: 300px;
+    margin:0px 34px 0px 0px;
+    padding: 5px auto ;
+    background-color:#baffc3;
+}
+.found{
+    width:250px;
+    height:30px;
+    background-color: #baffc3;
+    margin:20px 10px 10px 10px;
+    padding:5px auto;
+    border-radius:15px;
+}
+.publish{
+    width:250px;
+    height:30px;
+    background-color: #baffc3;
+    margin:20px 10px 10px 10px;
+    padding:10px auto;
+    border-radius:15px;
+}
+.notification{
+    width:250px;
+    height:30px;
+    background-color:#baffc3;
+    margin:20px 10px 10px 10px;
+    padding:5px auto;
+    border-radius:15px;
+}
+.found-button{
+    
+    border-radius:8px;
+    border-style:none;
+    width:280px;
+    height:50px;
+    background-color:#baffc3;
+    text-align:left;
+    font-size:18px;
+
+}
+.found-button:hover {
+    background-color: rgb(78, 255, 146); /* Green */
+    color: white;
+    border-style:dotted;
+    border-color:#07d923;
+}
+.publish-button{
+    border-radius:8px;
+    border-style:none;
+    width:280px;
+    height:50px;
+    background-color:#baffc3;
+    font-size:18px;
+    text-align:left;
+}
+.publish-button:hover {
+    background-color: rgb(78, 255, 146); /* Green */
+    color: white;
+    border-style:dotted;
+    border-color:#07d923;
+    
+}
+.notification-button{
+    border-radius:8px;
+    border-style:none;
+    width:280px;
+    height:50px;
+    background-color:#baffc3;
+    font-size:18px;
+    text-align:left;
+}
+.notification-button:hover {
+    background-color: rgb(78, 255, 146); /* Green */
+    color: white;
+    border-style:dotted;
+    border-color:#07d923;
+}
+.login{
+    width:250px;
+    height:60px;
+    background-color:#baffc3;
+    margin:50px 10px 10px 20px;
+    padding:5px auto;
+    border-radius:15px;
+}
+.login-button{
+    width:225px;
+    height:50px;
+    margin-left:10px;
+    margin-top:24px;
+    background-color:rgb(79, 232, 2);
+    border-radius:25px;
+    border-style:double;
+}
+.login-button:hover {
+    background-color: rgb(78, 255, 146); /* Green */
+    color: rgb(0, 0, 0);
+    border-style:dotted;
+    border-color:#076cd9;
+}
+.sidebar-more-button{
+    width:250px;
+    height:30px;
+    background-color:rgb(130, 255, 68);
+    margin:50px 10px 10px 20px;
+    padding:5px auto;
+    border-radius:15px;
+}
+.sidebar-more-button:hover{
+    width:250px;
+    height:30px;
+    background-color:rgb(78, 255, 146);
+}
+
