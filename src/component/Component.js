@@ -1,5 +1,8 @@
-import {loadCss, loadTemplate} from "../utils/loadManger";
+import {loadCss, loadTemplate} from "../utils/loadManger.js";
 export class Component extends HTMLElement {
+    static get observedAttributes() {
+        return [];
+    }
     get css() {
 
     }

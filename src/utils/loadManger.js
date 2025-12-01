@@ -1,9 +1,12 @@
 export async function loadTemplate(path) {
-    const template = await fetch(path).then(res => res.text());
-    const tmpl = document.createElement('template');
-    tmpl.innerHTML = template;
-    return tmpl;
+    const response = await fetch(path);
+    const templateText = await response.text();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(templateText, 'text/html');
+    return doc.querySelector('template');
 }
+
 export async function loadCss(path) {
-    return await fetch(path).then(res => res.text());
+    const response = await fetch(path);
+    return response.text();
 }

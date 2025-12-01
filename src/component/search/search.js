@@ -1,14 +1,14 @@
-import {Component} from "../Component";
+import {Component} from "../Component.js";
 
 class Search extends Component{
     get css() {
-        return "./search.css";
+        return new URL("./search.css", import.meta.url).href;
     }
     get template() {
-        return "./search.html";
+        return new URL("./search.html", import.meta.url).href;
     }
     update() {
 
     }
 }
-customElements.define("search", Search);
+customElements.define("search-bar", Search);

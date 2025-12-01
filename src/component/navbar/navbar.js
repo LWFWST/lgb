@@ -2,13 +2,13 @@ import {Component} from "../Component";
 
 class Navbar extends Component{
     get css() {
-        return "./navbar.css";
+        return new URL("./navbar.css", import.meta.url).href;
     }
     get template() {
-        return "./navbar.html";
+        return new URL("./navbar.html", import.meta.url).href;
     }
     update() {
 
     }
 }
-customElements.define("navbar", Navbar);
+customElements.define("nav-bar", Navbar);

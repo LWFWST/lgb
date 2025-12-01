@@ -1,14 +1,14 @@
-import {Component} from "../Component";
+import {Component} from "../Component.js";
 
 class Sidebar extends Component{
     get css() {
-        return "./sidebar.css";
+        return new URL("./sidebar.css", import.meta.url).href;
     }
     get template() {
-        return "./sidebar.html";
+        return new URL("./sidebar.html", import.meta.url).href;
     }
     update() {
 
     }
 }
-customElements.define("sidebar", Sidebar);
+customElements.define("side-bar", Sidebar);
