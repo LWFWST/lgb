@@ -1,28 +1,23 @@
 <template>
     <div class="cover-container" onclick="detail()">
         <div class="cover">
-            <img src="" alt="" class="cover-img">
+            <img id="img" src="" alt="error to load img" class="cover-img">
         </div>
         <div class="content">
             <div class="title">
-                <h1 class="title-text"></h1>
+                <h1 class="title-text" id="title"></h1>
             </div>
             <div class="text-content">
-                <p class="text"></p>
+                <p class="text" id="text"></p>
             </div>
         </div>
         <div class="footer">
             <span class="author">
-                <span class="author-name"></span>
+                <span class="author-name" id="name"></span>
             </span>
             <span class="date">
-                <span class="date-day"></span>
+                <span class="date-day" id="date"></span>
             </span>
         </div>
     </div>
-    <script>
-        function detail(){
-
-        }
-    </script>
 </template>
