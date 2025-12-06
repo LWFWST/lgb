@@ -1,0 +1,27 @@
+.cover-container{
+    width:230px;
+    height:280px;
+    margin:0px 30px 5px;
+    padding:0;
+    background-color:aqua;
+    
+}
+.cover-img{
+    text-align:center;
+    width:230px;
+    height:280px;
+    border-radius:20px;
+}
+.content{
+    width:230px;
+    height:40px;
+    background-color:coral;
+}
+.title{
+    font-size:small;
+}
+.text-content{
+    width:230px;
+    height:60px;
+    background-color:red;
+}

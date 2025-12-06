@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "msedge",
             "request": "launch",
             "name": "Open search.html",
             "file": "c:\\Users\\18622\\Desktop\\学校\\lgb\\src\\component\\search\\search.html"
