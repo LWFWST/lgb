@@ -1,0 +1,99 @@
+
+.logo-container{
+    width:300px;
+    height:100px;
+    margin:10px 50px 10px 5px;
+    background-color:white;
+    
+}
+.logo-image{
+    width:50px;
+    height:50px;
+    margin:10px 10px 5px 5px;
+    padding:0px 5px 0px 5px;
+    text-align:left;
+    font-size:large;
+    font-weight: bold;
+    color:cyan;
+    vertical-align:middle;
+    
+}
+.logo{
+    width:200px;
+    height:30px;
+    margin-bottom:20px;
+    font-weight:bold;
+    color:darkgreen;
+}
+.text{
+    width:200px;
+    height:0;
+    margin:0px 0px 0px 20px;
+    
+    font-weight:bold;
+    font-size:30px;
+    vertical-align:middle;
+    color:darkgreen;
+}
+.logo-text{
+    font-size:15px;
+    background-color:#42ee59;
+    border-radius:10px;
+    color:rgb(255, 255, 255);
+    margin-bottom:20px;
+    margin-top:10px;
+    height:auto;
+    width:300px;
+    text-align:center;
+}
+.search-container{
+    display:flex;
+    justify-content:center ;
+    max-width:600px;
+    padding-top:20px;
+    margin-right:250px;
+    float:right;
+    
+    
+}
+.mid-container{
+    
+    width:auto;
+    height:auto;
+    
+}
+.sidebar-container{
+    float:left;
+    vertical-align:top;
+}
+.navbar-container{
+    float:middle;
+    margin-top:35px;
+    vertical-align:-webkit-baseline-top;
+}
+.content-cover-container{
+    list-style:none;
+    margin-top:70px;
+    padding:0;
+    display:grid;
+    gap:20px;
+    grid-template-columns:repeat(auto-fill, minmax(300px,1fr))
+}
+.join-us{
+    text-decoration:none;
+    color:darkseagreen;
+    font-size:20px;
+    font-weight:bold;
+    margin-left:200px;
+    border-style:none;
+    background-color:white;
+}
+.creation-center{
+    text-decoration:none;
+    color:darkseagreen;
+    font-size:20px;
+    font-weight:bold;
+    margin-left:20px;
+    border-style:none;
+    background-color:white;
+}

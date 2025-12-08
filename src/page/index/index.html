@@ -3,20 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="\page\index\index.css" rel="stylesheet">
     <script type="module" src="../../component/search/search.js"></script>
     <script type="module" src="../../component/sidebar/sidebar.js"></script>
     <script type="module" src="../../component/navbar/navbar.js"></script>
     <script type="module" src="../../component/content-cover/content-cover.js"></script>
 </head>
 <body>
-    <side-bar></side-bar>
-    <search-bar></search-bar>
-    <nav-bar></nav-bar>
-    <content-cover
+    <div class="top-container">
+    <span class="logo-container">    
+            <img class="logo-image" src="\page\images\logo.jpg" alt="小绿书">
+    </span>
+        <span class="text">
+            小绿书
+        </span>
+        <span class="search-container">
+            <search-bar></search-bar>
+            <input type="button" class="join-us" value="加入我们"></input>
+            <input type="button" class="creation-center" value="创作中心"></input>
+        </span>
+        
+        <div class="logo-text">
+            小绿书,看见不一样的生活
+        </div>
+        <div class="navbar-container">
+            <nav-bar></nav-bar>
+        </div>
+    </div>
+        
+    <div class="mid-container">
+        <span class="sidebar-container">
+            <side-bar></side-bar> 
+        </span>
+        <span class="content-cover-container">        
+            <content-cover
             url="https://th.bing.com/th/id/R.987f582c510be58755c4933cda68d525?rik=C0D21hJDYvXosw&riu=http%3a%2f%2fimg.pconline.com.cn%2fimages%2fupload%2fupc%2ftx%2fwallpaper%2f1305%2f16%2fc4%2f20990657_1368686545122.jpg&ehk=netN2qzcCVS4ALUQfDOwxAwFcy41oxC%2b0xTFvOYy5ds%3d&risl=&pid=ImgRaw&r=0"
             title="test"
             text="text"
             author="author"
             date="date"></content-cover>
+            <content-cover
+            url="https://th.bing.com/th/id/R.987f582c510be58755c4933cda68d525?rik=C0D21hJDYvXosw&riu=http%3a%2f%2fimg.pconline.com.cn%2fimages%2fupload%2fupc%2ftx%2fwallpaper%2f1305%2f16%2fc4%2f20990657_1368686545122.jpg&ehk=netN2qzcCVS4ALUQfDOwxAwFcy41oxC%2b0xTFvOYy5ds%3d&risl=&pid=ImgRaw&r=0"
+            title="test"
+            text="text"
+            author="author"
+            date="date"></content-cover>
+        </span>
+         
+        
+
+    </div>
+
+    
+    
+    
+    
+    
 </body>
 </html>
