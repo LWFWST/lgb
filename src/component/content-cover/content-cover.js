@@ -2,7 +2,7 @@ import {Component} from "../Component.js";
 
 class ContentCover extends Component{
     static get observedAttributes(){
-        return ["url","title","text","author","date","link"];
+        return ["url","title","text","author","date","identify"];
     }
     get css() {
         return new URL("./content-cover.css", import.meta.url).href;
@@ -25,10 +25,7 @@ class ContentCover extends Component{
     }
 
     detail() {
-        const link = this.getAttribute("link");
-        if (link) {
-
-        }
+        window.location.href = "\\page\\content\\content.html"  + "?identify=" + this.getAttribute("identify");
     }
     update() {
         const shadow = this.shadowRoot;
